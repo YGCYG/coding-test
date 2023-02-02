@@ -1,4 +1,4 @@
-package programmers.level0.day2
+package programmers.level0.daily.day2
 
 class Addition2 {
     fun solution(numer1: Int, denom1: Int, numer2: Int, denom2: Int): IntArray {
