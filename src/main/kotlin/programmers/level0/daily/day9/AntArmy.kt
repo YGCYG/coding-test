@@ -1,4 +1,4 @@
-package programmers.level0.others
+package programmers.level0.daily.day9
 
 class AntArmy {
     fun solution(hp: Int): Int {

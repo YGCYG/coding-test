@@ -1,4 +1,4 @@
-package programmers.level0.others
+package programmers.level0.daily.day8
 
 class NumberOfOrderedPairs {
     fun solution(n: Int): Int {
