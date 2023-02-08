@@ -9,5 +9,5 @@ class Addition2 {
         return intArrayOf(numer/ndGCD, denom/ndGCD)
     }
 
-    fun gcd(a: Int, b:Int): Int = if(b != 0) gcd(b, a % b) else a
+    tailrec fun gcd(a: Int, b:Int): Int = if(b != 0) gcd(b, a % b) else a
 }
