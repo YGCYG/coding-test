@@ -1,4 +1,4 @@
-package programmers.level0.others
+package programmers.level0.daily.day25
 
 class StringPush {
     fun solution(A: String, B: String): Int = rotate(A, B, 0)

@@ -1,6 +1,7 @@
-import programmers.level0.others.Ranking
+import programmers.level0.others.LengthOfOverlappingSegments
 
 fun main(args: Array<String>) {
-    Ranking().solution(arrayOf(intArrayOf(80, 70), intArrayOf(90, 50), intArrayOf(40, 70), intArrayOf(50, 80)))
-    Ranking().solution(arrayOf(intArrayOf(80, 70), intArrayOf(70, 80), intArrayOf(30, 50), intArrayOf(90, 100), intArrayOf(100, 90), intArrayOf(100, 100), intArrayOf(10, 30)))
+    val test1 = LengthOfOverlappingSegments().solution(arrayOf(intArrayOf(0,1), intArrayOf(2,5), intArrayOf(3,9)))
+    val test2 = LengthOfOverlappingSegments().solution(arrayOf(intArrayOf(0,5), intArrayOf(3,9), intArrayOf(1,10)))
+    println(test2)
 }
